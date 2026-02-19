@@ -93,7 +93,7 @@ namespace actividad.polimorf
             {
                 leerDatos();
                 signoZodiacal();
-                Console.WriteLine("tu nombre es ");
+                Console.WriteLine($"Hola {nombre}, tienes {edad} años y tu peso es de {peso} kg");
             }
         }
 
@@ -145,6 +145,8 @@ namespace actividad.polimorf
                 leerDatos();
                 string nnumero = numeroPasajeros();
                 Console.WriteLine(nnumero);
+                Console.WriteLine($"El carro es un {marca} del año {modelo}, con matricula {matricula} y es de tipo {tipo}");
+
             }
 
 
